@@ -1,0 +1,4 @@
+drop table consulta;
+  drop table dentista;
+  drop table endereco;
+  drop table paciente;

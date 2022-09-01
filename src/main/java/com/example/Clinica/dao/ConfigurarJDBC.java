@@ -18,9 +18,9 @@ public class ConfigurarJDBC {
 
     public ConfigurarJDBC() {
         this.driver = "org.h2.Driver";
-        this.url = "";
+        this.url = "jdbc:h2:~/test;DB_CLOSE_DELAY=-1;INIT=RUNSCRIPT FROM 'create.sql'";
         this.usuario = "sa";
-        this.senha = "jdbc:h2:~/test;DB_CLOSE_DELAY=-1;INIT=RUNSCRIPT FROM 'create.sql'";
+        this.senha = "";
     }
 
     public Connection conectarBanco()
@@ -29,10 +29,11 @@ public class ConfigurarJDBC {
         Connection connection = null;
         try
         {
-            connection = DriverManager.getConnection(getUrl(), getUsuario(), getSenha());
+            connection = DriverManager.getConnection(this.url, this.usuario, this.senha);
         }catch(SQLException error)
         {
-            logger.debug("Erro ao conectar com o banco");
+            logger.debug("Erro ao conectar com o banco na classe configurar JDBC");
+            error.printStackTrace();
         }
 
         return connection;

@@ -1,0 +1,52 @@
+[2022-09-01 16:40:45] [ DEBUG] [DentistaDaoH2:33] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:40:45] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:40:45] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco
+[2022-09-01 16:43:12] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:43:12] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:43:12] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco
+[2022-09-01 16:44:49] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:44:49] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:44:50] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco
+[2022-09-01 16:46:38] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:46:38] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:46:39] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco
+[2022-09-01 16:47:54] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:47:54] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:47:54] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-01 16:50:14] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:50:14] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:50:14] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-01 16:50:51] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:50:51] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:50:51] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-01 16:51:29] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:51:29] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:51:30] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-01 16:51:54] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:51:54] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:51:54] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-01 16:52:25] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:52:25] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:52:26] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-01 16:53:20] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:53:20] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:56:23] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:56:23] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:56:24] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-01 16:56:53] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 16:56:53] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 16:56:54] [ DEBUG] [DentistaDaoH2:42] Erro ao registrar dentista
+[2022-09-01 17:04:29] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 17:04:29] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 17:04:29] [ DEBUG] [ConfigurarJDBC:35] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-01 17:05:02] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 17:05:02] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 17:05:02] [ DEBUG] [DentistaDaoH2:42] Erro ao registrar dentista
+[2022-09-01 17:10:45] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 17:10:45] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 17:10:46] [ DEBUG] [DentistaDaoH2:42] Erro ao registrar dentista
+[2022-09-01 17:12:42] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 17:12:42] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-01 17:12:42] [ DEBUG] [DentistaDaoH2:42] Erro ao registrar dentista
+[2022-09-01 17:16:34] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
+[2022-09-01 17:16:34] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
