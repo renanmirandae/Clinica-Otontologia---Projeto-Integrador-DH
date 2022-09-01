@@ -1,2 +1,40 @@
-package com.example.Clinica.dao;public class ConfigurarJDBC {
+package com.example.Clinica.dao;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import org.apache.log4j.Logger;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+@Getter
+@Setter
+@AllArgsConstructor
+public class ConfigurarJDBC {
+    private String driver, url, usuario, senha;
+    private Logger logger = Logger.getLogger(ConfigurarJDBC.class);
+
+    public ConfigurarJDBC() {
+        this.driver = "org.h2.Driver";
+        this.url = "";
+        this.usuario = "sa";
+        this.senha = "jdbc:h2:~/test;DB_CLOSE_DELAY=-1;INIT=RUNSCRIPT FROM 'create.sql'";
+    }
+
+    public Connection conectarBanco()
+    {
+        logger.info("Abrindo conexao com o banco de dados");
+        Connection connection = null;
+        try
+        {
+            connection = DriverManager.getConnection(getUrl(), getUsuario(), getSenha());
+        }catch(SQLException error)
+        {
+            logger.debug("Erro ao conectar com o banco");
+        }
+
+        return connection;
+    }
 }
