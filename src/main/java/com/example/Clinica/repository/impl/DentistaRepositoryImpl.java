@@ -1,11 +1,12 @@
-package com.example.Clinica.dao.implementacao;
+package com.example.Clinica.repository.impl;
 
-import com.example.Clinica.dao.ConfigurarJDBC;
-import com.example.Clinica.dao.IDao;
-import com.example.Clinica.model.Dentista;
+import com.example.Clinica.repository.ConfigurarJDBC;
+import com.example.Clinica.repository.IDao;
+import com.example.Clinica.entity.DentistaEntity;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -14,16 +15,17 @@ import java.util.List;
 
 @Getter
 @Setter
-public class DentistaDaoH2 implements IDao<Dentista> {
+@Repository
+public class DentistaRepositoryImpl implements IDao<DentistaEntity> {
     private ConfigurarJDBC configurarJDBC;
-    private Logger logger = Logger.getLogger(DentistaDaoH2.class);
+    private Logger logger = Logger.getLogger(DentistaRepositoryImpl.class);
 
-    public DentistaDaoH2(ConfigurarJDBC configurarJDBC) {
+    public DentistaRepositoryImpl(ConfigurarJDBC configurarJDBC) {
         this.configurarJDBC = configurarJDBC;
     }
 
     @Override
-    public Dentista cadastrar(Dentista dentista) {
+    public DentistaEntity cadastrar(DentistaEntity dentista) {
         String sqlInsert = String.format("insert into dentista(nome, sobrenome, matricula, senha, tipo) values('%s', '%s', '%s','%s','%s');",
                 dentista.getNome(), dentista.getSobrenome(), dentista.getDocumento(), dentista.getSenha(), dentista.getTipo());
 
@@ -66,11 +68,12 @@ public class DentistaDaoH2 implements IDao<Dentista> {
         }catch(SQLException error)
         {
             logger.debug("Erro ao excluir dentista");
+            error.printStackTrace();
         }
     }
 
     @Override
-    public List<Dentista> buscarPorDocumento(String documento) {
+    public List<DentistaEntity> buscarPorDocumento(String documento) {
         return null;
     }
 }

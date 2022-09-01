@@ -1,8 +1,8 @@
 package com.example.Clinica;
 
-import com.example.Clinica.dao.ConfigurarJDBC;
-import com.example.Clinica.dao.implementacao.DentistaDaoH2;
-import com.example.Clinica.model.Dentista;
+import com.example.Clinica.repository.ConfigurarJDBC;
+import com.example.Clinica.repository.impl.DentistaRepositoryImpl;
+import com.example.Clinica.entity.DentistaEntity;
 import com.example.Clinica.service.DentistaService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,25 +13,34 @@ import java.sql.SQLException;
 @SpringBootTest
 class ClinicaApplicationTests {
 
-	Dentista marcos;
+	DentistaEntity marcos, luiz, antonio, lara, maria;
 	DentistaService dentistaService;
 
 	@BeforeEach
 	void carregamento()
 	{
-		dentistaService = new DentistaService(new DentistaDaoH2(new ConfigurarJDBC()));
-		marcos = new Dentista("Marcos", "Santos", "258652145", "marcos123", "administrador");
+		dentistaService = new DentistaService(new DentistaRepositoryImpl(new ConfigurarJDBC()));
+		marcos = new DentistaEntity("Marcos", "Santos", "258652145", "marcos123", "administrador");
+		luiz = new DentistaEntity("Luiz", "Vasconselos", "15485258", "lv2022", "administrador");;
+		antonio = new DentistaEntity("Antonio", "Wiliam", "145285695", "12345678", "administrador");;
+		lara = new DentistaEntity("Lara", "Bittencourt", "00025852", "235467", "administrador");;
+		maria = new DentistaEntity("Maria", "Graça", "12358620025", "maria12", "administrador");;
 
 	}
 
 	@Test
-	void addDentista()
+	void addDentista() throws SQLException
 	{
-		try {
-			dentistaService.cadastrar(marcos);
-		}catch (SQLException error)
-		{
-			error.printStackTrace();
-		}
+		//dentistaService.cadastrar(marcos);
+		//dentistaService.cadastrar(luiz);
+		//dentistaService.cadastrar(antonio);
+		//dentistaService.cadastrar(lara);
+		//dentistaService.cadastrar(maria);
+	}
+
+	@Test
+	void excluirDentista() throws SQLException
+	{
+		dentistaService.excluirPorDocumento("258652145");
 	}
 }

@@ -1,4 +1,4 @@
-package com.example.Clinica.dao;
+package com.example.Clinica.repository;
 
 import java.sql.SQLException;
 import java.util.List;

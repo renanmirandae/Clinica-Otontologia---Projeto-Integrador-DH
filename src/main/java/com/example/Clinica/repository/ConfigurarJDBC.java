@@ -1,4 +1,4 @@
-package com.example.Clinica.dao;
+package com.example.Clinica.repository;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -7,7 +7,6 @@ import org.apache.log4j.Logger;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 @Getter
 @Setter
