@@ -3,6 +3,7 @@ package com.example.Clinica.service;
 import com.example.Clinica.repository.IDao;
 import com.example.Clinica.entity.DentistaEntity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.sql.SQLException;

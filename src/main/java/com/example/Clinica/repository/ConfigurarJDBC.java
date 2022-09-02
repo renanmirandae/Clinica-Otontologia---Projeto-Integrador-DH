@@ -3,6 +3,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,6 +12,7 @@ import java.sql.SQLException;
 @Getter
 @Setter
 @AllArgsConstructor
+@Component
 public class ConfigurarJDBC {
     private String driver, url, usuario, senha;
     private Logger logger = Logger.getLogger(ConfigurarJDBC.class);

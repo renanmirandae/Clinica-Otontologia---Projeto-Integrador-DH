@@ -6,6 +6,7 @@ import com.example.Clinica.entity.DentistaEntity;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
