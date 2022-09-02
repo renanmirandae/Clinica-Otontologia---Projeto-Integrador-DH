@@ -65,3 +65,27 @@
 [2022-09-01 19:31:01] [ DEBUG] [DentistaDaoH2:42] Erro ao registrar dentista
 [2022-09-01 19:37:50] [ DEBUG] [DentistaDaoH2:35] Inserindo dados do dentista no banco de dados
 [2022-09-01 19:37:50] [ INFO ] [ConfigurarJDBC:28] Abrindo conexao com o banco de dados
+[2022-09-02 11:45:35] [ DEBUG] [DentistaRepositoryImpl:40] Inserindo dados do dentista no banco de dados
+[2022-09-02 11:45:35] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 11:50:59] [ DEBUG] [DentistaRepositoryImpl:41] Inserindo dados do dentista no banco de dados
+[2022-09-02 11:50:59] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 11:50:59] [ DEBUG] [ConfigurarJDBC:36] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-02 11:51:16] [ DEBUG] [DentistaRepositoryImpl:41] Inserindo dados do dentista no banco de dados
+[2022-09-02 11:51:16] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 11:51:16] [ DEBUG] [DentistaRepositoryImpl:55] Erro ao registrar dentista
+[2022-09-02 11:52:43] [ DEBUG] [DentistaRepositoryImpl:41] Inserindo dados do dentista no banco de dados
+[2022-09-02 11:52:43] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 11:52:43] [ DEBUG] [DentistaRepositoryImpl:55] Erro ao registrar dentista
+[2022-09-02 11:53:04] [ DEBUG] [DentistaRepositoryImpl:41] Inserindo dados do dentista no banco de dados
+[2022-09-02 11:53:04] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 11:56:16] [ DEBUG] [DentistaRepositoryImpl:41] Inserindo dados do dentista no banco de dados
+[2022-09-02 11:56:16] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 11:56:17] [ DEBUG] [DentistaRepositoryImpl:55] Erro ao registrar dentista
+[2022-09-02 11:56:45] [ DEBUG] [DentistaRepositoryImpl:41] Inserindo dados do dentista no banco de dados
+[2022-09-02 11:56:45] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 11:58:45] [ DEBUG] [DentistaRepositoryImpl:41] Inserindo dados do dentista no banco de dados
+[2022-09-02 11:58:45] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 12:00:26] [ DEBUG] [DentistaRepositoryImpl:41] Inserindo dados do dentista no banco de dados
+[2022-09-02 12:00:26] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 12:11:00] [ DEBUG] [DentistaRepositoryImpl:73] Excluindo dentista
+[2022-09-02 12:11:00] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados

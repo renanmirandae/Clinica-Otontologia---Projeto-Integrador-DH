@@ -6,10 +6,11 @@ import com.example.Clinica.entity.DentistaEntity;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.log4j.Logger;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
@@ -17,6 +18,7 @@ import java.util.List;
 @Getter
 @Setter
 @Repository
+@Configuration
 public class DentistaRepositoryImpl implements IDao<DentistaEntity> {
     private ConfigurarJDBC configurarJDBC;
     private Logger logger = Logger.getLogger(DentistaRepositoryImpl.class);
@@ -39,6 +41,13 @@ public class DentistaRepositoryImpl implements IDao<DentistaEntity> {
             connection = configurarJDBC.conectarBanco();
             statement = connection.createStatement();
             statement.executeUpdate(sqlInsert, Statement.RETURN_GENERATED_KEYS);
+
+            ResultSet key = statement.getGeneratedKeys();
+
+            if(key.next())
+            {
+                dentista.setId(key.getInt(1));
+            }
 
         }catch(SQLException error)
         {
