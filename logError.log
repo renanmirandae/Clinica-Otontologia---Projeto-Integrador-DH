@@ -89,3 +89,239 @@
 [2022-09-02 12:00:26] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
 [2022-09-02 12:11:00] [ DEBUG] [DentistaRepositoryImpl:73] Excluindo dentista
 [2022-09-02 12:11:00] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:31:24] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por matricula
+[2022-09-02 15:31:24] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:31:25] [ INFO ] [DentistaRepositoryImpl:109] Dentista encontrado com sucesso
+[2022-09-02 15:31:39] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por matricula
+[2022-09-02 15:31:39] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:31:39] [ INFO ] [DentistaRepositoryImpl:109] Dentista encontrado com sucesso
+[2022-09-02 15:31:44] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por matricula
+[2022-09-02 15:31:44] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:31:44] [ INFO ] [DentistaRepositoryImpl:109] Dentista encontrado com sucesso
+[2022-09-02 15:32:20] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por matricula
+[2022-09-02 15:32:20] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:32:20] [ INFO ] [DentistaRepositoryImpl:109] Dentista encontrado com sucesso
+[2022-09-02 15:32:41] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por matricula
+[2022-09-02 15:32:41] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:32:41] [ INFO ] [DentistaRepositoryImpl:109] Dentista encontrado com sucesso
+[2022-09-02 15:32:50] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por matricula
+[2022-09-02 15:32:50] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:32:50] [ INFO ] [DentistaRepositoryImpl:109] Dentista encontrado com sucesso
+[2022-09-02 15:38:04] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por matricula
+[2022-09-02 15:38:04] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:38:05] [ DEBUG] [ConfigurarJDBC:36] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-02 15:38:43] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por matricula
+[2022-09-02 15:38:43] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:38:45] [ ERROR] [DentistaRepositoryImpl:112] Erro ao buscar dentista pela sua matricula.
+[2022-09-02 15:41:41] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 15:41:41] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:41:42] [ ERROR] [DentistaRepositoryImpl:112] Erro ao buscar dentista por nome.
+[2022-09-02 15:42:44] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 15:42:44] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:42:45] [ ERROR] [DentistaRepositoryImpl:112] Erro ao buscar dentista por nome.
+[2022-09-02 15:44:46] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 15:44:46] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:44:47] [ DEBUG] [DentistaRepositoryImpl:120] Classe criar OBJ dentista
+[2022-09-02 15:44:47] [ ERROR] [DentistaRepositoryImpl:112] Erro ao buscar dentista por nome.
+[2022-09-02 15:46:12] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 15:46:12] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:46:13] [ DEBUG] [DentistaRepositoryImpl:120] Classe criar OBJ dentista
+[2022-09-02 15:46:13] [ ERROR] [DentistaRepositoryImpl:112] Erro ao buscar dentista por nome.
+[2022-09-02 15:56:44] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 15:56:44] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:56:46] [ DEBUG] [DentistaRepositoryImpl:120] Classe criar OBJ dentista
+[2022-09-02 15:56:46] [ ERROR] [DentistaRepositoryImpl:112] Erro ao buscar dentista por nome.
+[2022-09-02 15:56:57] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 15:56:57] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:56:57] [ INFO ] [DentistaRepositoryImpl:109] Dentista encontrado com sucesso
+[2022-09-02 15:59:45] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 15:59:45] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:59:46] [ INFO ] [DentistaRepositoryImpl:109] Dentista encontrado com sucesso
+[2022-09-02 15:59:57] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 15:59:57] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 15:59:57] [ DEBUG] [DentistaRepositoryImpl:120] Classe criar OBJ dentista
+[2022-09-02 15:59:58] [ ERROR] [DentistaRepositoryImpl:112] Erro ao buscar dentista por nome.
+[2022-09-02 16:03:42] [ INFO ] [DentistaRepositoryImpl:93] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:03:42] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:03:43] [ DEBUG] [DentistaRepositoryImpl:120] Classe criar OBJ dentista
+[2022-09-02 16:03:43] [ ERROR] [DentistaRepositoryImpl:112] Erro ao buscar dentista por nome.
+[2022-09-02 16:04:54] [ INFO ] [DentistaRepositoryImpl:94] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:04:54] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:04:55] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:04:55] [ ERROR] [DentistaRepositoryImpl:113] Erro ao buscar dentista por nome.
+[2022-09-02 16:06:25] [ INFO ] [DentistaRepositoryImpl:94] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:06:25] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:06:26] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:06:26] [ ERROR] [DentistaRepositoryImpl:113] Erro ao buscar dentista por nome.
+[2022-09-02 16:08:51] [ INFO ] [DentistaRepositoryImpl:94] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:08:51] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:08:52] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:08:52] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:08:52] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:08:52] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:08:52] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:08:52] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:08:52] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:08:52] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:08:52] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:08:52] [ INFO ] [DentistaRepositoryImpl:110] Dentista encontrado com sucesso
+[2022-09-02 16:09:42] [ INFO ] [DentistaRepositoryImpl:94] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:09:42] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:09:42] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:09:42] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:09:42] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:09:42] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:09:42] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:09:42] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:09:42] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:09:42] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:09:42] [ DEBUG] [DentistaRepositoryImpl:121] Classe criar OBJ dentista
+[2022-09-02 16:09:42] [ INFO ] [DentistaRepositoryImpl:110] Dentista encontrado com sucesso
+[2022-09-02 16:13:18] [ INFO ] [DentistaRepositoryImpl:95] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:13:18] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:13:19] [ DEBUG] [DentistaRepositoryImpl:122] Classe criar OBJ dentista
+[2022-09-02 16:14:22] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:14:22] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:14:23] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:14:23] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:14:23] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:14:23] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:14:23] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:14:23] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:14:23] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:14:23] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:14:23] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:14:23] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso
+[2022-09-02 16:16:32] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:16:32] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:16:32] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:16:32] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:17:32] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:17:32] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:17:34] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:17:34] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:18:24] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:18:24] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:18:24] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:18:24] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:22:52] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:22:52] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:22:53] [ DEBUG] [ConfigurarJDBC:36] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-02 16:23:21] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:23:21] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:23:22] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:28:16] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:28:16] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:28:16] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso
+[2022-09-02 16:28:23] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:28:23] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:28:23] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:28:23] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:28:40] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:28:40] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:28:40] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:28:40] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:35:52] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:35:52] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:35:53] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:35:53] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:36:39] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:36:39] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:36:40] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:36:40] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:36:40] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:36:40] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:36:40] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:36:40] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:36:40] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:36:40] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:36:40] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:36:40] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso
+[2022-09-02 16:38:41] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:38:41] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:38:42] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:38:42] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:40:20] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:40:20] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:40:21] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:40:21] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:40:21] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:40:21] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:40:21] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:40:21] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:40:21] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:40:21] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:40:21] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:40:21] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso
+[2022-09-02 16:47:17] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:47:17] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:47:18] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:47:18] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:47:18] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:47:18] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:47:18] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:47:18] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:47:18] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:47:18] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:47:18] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:47:18] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso
+[2022-09-02 16:49:11] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:49:11] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:49:12] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:49:55] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:49:55] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:49:56] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:51:02] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:51:02] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:51:03] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:52:01] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:52:01] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:52:01] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:52:41] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:52:41] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:52:41] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:54:59] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:54:59] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:55:00] [ DEBUG] [ConfigurarJDBC:36] Erro ao conectar com o banco na classe configurar JDBC
+[2022-09-02 16:55:27] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:55:27] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:55:29] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:55:29] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 16:56:40] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:56:40] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:56:41] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:56:41] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:56:41] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso
+[2022-09-02 16:57:28] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:57:28] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:57:28] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:57:28] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso
+[2022-09-02 16:58:58] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:58:58] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:58:59] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:58:59] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso
+[2022-09-02 16:59:14] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:59:14] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:59:14] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso
+[2022-09-02 16:59:24] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 16:59:24] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 16:59:24] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:59:24] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 16:59:24] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso
+[2022-09-02 17:00:58] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 17:00:58] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 17:00:58] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 17:00:58] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 17:01:14] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 17:01:14] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 17:01:14] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 17:01:14] [ ERROR] [DentistaRepositoryImpl:115] Erro ao buscar dentista por nome.
+[2022-09-02 17:01:44] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 17:01:44] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 17:01:45] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 17:01:45] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 17:01:45] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso
+[2022-09-02 17:01:52] [ INFO ] [DentistaRepositoryImpl:96] Acessando banco de dados para buscar dentista por nome
+[2022-09-02 17:01:52] [ INFO ] [ConfigurarJDBC:29] Abrindo conexao com o banco de dados
+[2022-09-02 17:01:52] [ DEBUG] [DentistaRepositoryImpl:123] Classe criar OBJ dentista
+[2022-09-02 17:01:52] [ INFO ] [DentistaRepositoryImpl:112] Dentista encontrado com sucesso

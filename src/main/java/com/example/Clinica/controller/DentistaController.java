@@ -5,6 +5,8 @@ import com.example.Clinica.service.DentistaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.sql.SQLException;
+import java.util.List;
+import java.util.Optional;
 
 @RestController()
 @RequestMapping("/dentista")
@@ -20,9 +22,9 @@ public class DentistaController {
     }
 
     @GetMapping(path = "/buscar")
-    public String buscarPorMatricula()
+    public List<DentistaEntity> buscarPorNome(@RequestParam("nome") String nome) throws SQLException
     {
-        return null;
+        return dentistaService.buscarPorNome(nome);
     }
 
     @DeleteMapping

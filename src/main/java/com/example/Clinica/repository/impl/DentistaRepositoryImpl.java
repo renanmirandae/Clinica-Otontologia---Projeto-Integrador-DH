@@ -13,7 +13,9 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Getter
 @Setter
@@ -28,6 +30,7 @@ public class DentistaRepositoryImpl implements IDao<DentistaEntity> {
     }
 
     @Override
+    //Metodo reponsavel por cadastrar um novo dentista
     public DentistaEntity cadastrar(DentistaEntity dentista) {
         String sqlInsert = String.format("insert into dentista(nome, sobrenome, matricula, senha, tipo) values('%s', '%s', '%s','%s','%s');",
                 dentista.getNome(), dentista.getSobrenome(), dentista.getDocumento(), dentista.getSenha(), dentista.getTipo());
@@ -37,7 +40,7 @@ public class DentistaRepositoryImpl implements IDao<DentistaEntity> {
 
         try
         {
-            logger.debug("Inserindo dados do dentista no banco de dados");
+            logger.info("Acessando banco de dados para cadastrar novo dentista");
             connection = configurarJDBC.conectarBanco();
             statement = connection.createStatement();
             statement.executeUpdate(sqlInsert, Statement.RETURN_GENERATED_KEYS);
@@ -49,9 +52,11 @@ public class DentistaRepositoryImpl implements IDao<DentistaEntity> {
                 dentista.setId(key.getInt(1));
             }
 
+            logger.info("Dentista cadastrado com sucesso");
+
         }catch(SQLException error)
         {
-            logger.debug("Erro ao registrar dentista");
+            logger.error("Erro ao cadastrar novo dentista");
             error.printStackTrace();
         }
 
@@ -60,30 +65,69 @@ public class DentistaRepositoryImpl implements IDao<DentistaEntity> {
 
     @Override
     public void atualizar(int id) {
-
     }
 
     @Override
+    //Metodo responsavel por excluir um dentista, passando sua matricula
     public void excluirPorDocumento(String documento) {
         String sqlDelete = String.format("delete from dentista where matricula='%s';", documento);
         Connection connection;
         Statement statement;
         try
         {
-            logger.debug("Excluindo dentista");
+            logger.info("Acessando o banco de dados para excluir Dentista");
             connection = getConfigurarJDBC().conectarBanco();
             statement = connection.createStatement();
             statement.executeUpdate(sqlDelete);
+            logger.info("Dentista excluido com sucesso");
 
         }catch(SQLException error)
         {
-            logger.debug("Erro ao excluir dentista");
+            logger.error("Erro ao excluir dentista");
             error.printStackTrace();
         }
     }
 
     @Override
-    public List<DentistaEntity> buscarPorDocumento(String documento) {
-        return null;
+    //Esse metodo retorna uma lista com os dentista que atende o parametro passado
+    public List<DentistaEntity> buscarPorNome(String nome) throws SQLException
+    {
+        System.out.println("\"São Paulo\", \"Rio de Janeiro\"");
+        logger.info("Acessando banco de dados para buscar dentista por nome");
+        String sqlSelect = String.format("select * from dentista where nome='%s' ", nome);
+        Connection connection;
+        Statement statement;
+        List<DentistaEntity> dentista = new ArrayList<>();
+        try
+        {
+            connection = getConfigurarJDBC().conectarBanco();
+            statement = connection.createStatement();
+
+            ResultSet resultado = statement.executeQuery(sqlSelect);
+
+            while(resultado.next())
+            {
+                dentista.add(criarObjDentista(resultado));
+            }
+            logger.info("Dentista encontrado com sucesso");
+        }catch(SQLException error)
+        {
+            logger.error("Erro ao buscar dentista por nome.");
+            error.printStackTrace();
+        }
+        return dentista;
+    }
+
+    private DentistaEntity criarObjDentista(ResultSet resultado) throws SQLException
+    {
+        logger.debug("Classe criar OBJ dentista");
+        int id = resultado.getInt(1);
+        String nome = resultado.getString(2);
+        String sobrenome = resultado.getString(3);
+        String documento = resultado.getString(4);
+        String tipo = resultado.getString(6);
+
+
+        return new DentistaEntity(id, nome, sobrenome, documento, null, tipo);
     }
 }
